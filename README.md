@@ -7,7 +7,6 @@ Módulos json, os e time 📜
 <br>
 # Uso 💻
 Adicione o arquivo de configuração config.json na mesma pasta do script, seguindo o seguinte formato:
-Copy code
 ```
 {
     "daysToDelete": 30,
@@ -18,8 +17,9 @@ Copy code
 Onde daysToDelete é o número de dias para exclusão dos arquivos, directory é o caminho para o diretório onde os arquivos serão excluídos e excludeDirs é uma lista de pastas a serem excluídas.
 
 Execute o script com o comando:
-Copy code
-```python autoexclude.py```
+```
+python autoexclude.py
+```
 O script irá gerar um arquivo chamado removeds.txt, onde serão registrados os arquivos excluídos, incluindo a data e hora da exclusão e a data de criação do arquivo.
 
 Para sair do script, basta pressionar enter.
