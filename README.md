@@ -2,7 +2,7 @@
 Este é um script que busca por arquivos e pastas em um determinado diretório e, caso o tempo de criação do arquivo seja maior que um determinado número de dias especificado em um arquivo de configuração, o arquivo é excluído. O script também exclui pastas especificadas em um arquivo de configuração.
 <br>
 # Requisitos 📋
-Python 3.6 ou superior 🐍
+Python 3.6 ou superior 🐍<br>
 Módulos json, os e time 📜
 <br>
 # Uso 💻
