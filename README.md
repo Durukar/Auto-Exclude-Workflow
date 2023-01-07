@@ -35,13 +35,16 @@ Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para ma
 # EN
 <br>
 <br>
+
 # Auto Exclude - PY 🗑️
 This is a script that searches for files and directories in a specified directory and, if the file creation time is greater than a specified number of days specified in a configuration file, the file is deleted. The script also deletes directories specified in a configuration file.
 <br>
+
 # Requirements 📋
 Python 3.6 or higher 🐍
 json, os and time modules 📜
 <br>
+
 # Usage 💻
 Add the configuration file config.json in the same folder as the script, following the following format:
 ```
@@ -61,9 +64,11 @@ The script will generate a file called removeds.txt, where deleted files will be
 
 To exit the script, just press enter.
 <br>
+
 # Notes ⚠️
 The script runs in an infinite loop every 30 minutes.
 Files with more than 180 days of creation will not be deleted.
 <br>
+
 # License 📃
 This project is licensed under the MIT license. See the LICENSE file for more details.
