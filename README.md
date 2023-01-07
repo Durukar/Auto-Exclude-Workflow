@@ -30,3 +30,40 @@ Arquivos com mais de 180 dias de criação não serão excluídos.
 <br>
 # Licença 📃
 Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+<br>
+<br>
+# EN
+<br>
+<br>
+# File and Directory Deletion 🗑️
+This is a script that searches for files and directories in a specified directory and, if the file creation time is greater than a specified number of days specified in a configuration file, the file is deleted. The script also deletes directories specified in a configuration file.
+<br>
+# Requirements 📋
+Python 3.6 or higher 🐍
+json, os and time modules 📜
+<br>
+# Usage 💻
+Add the configuration file config.json in the same folder as the script, following the following format:
+```
+{
+    "daysToDelete": 30,
+    "directory": "/path/to/directory",
+    "excludeDirs": ["folder1", "folder2"]
+}
+```
+Where daysToDelete is the number of days for file deletion, directory is the path to the directory where the files will be deleted and excludeDirs is a list of folders to be deleted.
+
+Run the script with the command:
+```
+python delete_files_and_dirs.py
+```
+The script will generate a file called removeds.txt, where deleted files will be recorded, including the deletion date and time and the file creation date.
+
+To exit the script, just press enter.
+<br>
+# Notes ⚠️
+The script runs in an infinite loop every 30 minutes.
+Files with more than 180 days of creation will not be deleted.
+<br>
+# License 📃
+This project is licensed under the MIT license. See the LICENSE file for more details.
