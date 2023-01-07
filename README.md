@@ -11,7 +11,7 @@ Adicione o arquivo de configuração config.json na mesma pasta do script, segui
 {
     "daysToDelete": 30,
     "directory": "/caminho/para/diretorio",
-    "excludeDirs": ["pasta1", "pasta2"]
+    "excludeDirs": ["Project_name"]
 }
 ```
 Onde daysToDelete é o número de dias para exclusão dos arquivos, directory é o caminho para o diretório onde os arquivos serão excluídos e excludeDirs é uma lista de pastas a serem excluídas.
@@ -48,7 +48,7 @@ Add the configuration file config.json in the same folder as the script, followi
 {
     "daysToDelete": 30,
     "directory": "/path/to/directory",
-    "excludeDirs": ["folder1", "folder2"]
+    "excludeDirs": ["Project_name"]
 }
 ```
 Where daysToDelete is the number of days for file deletion, directory is the path to the directory where the files will be deleted and excludeDirs is a list of folders to be deleted.
