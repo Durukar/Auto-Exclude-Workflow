@@ -1,4 +1,4 @@
-# Exclusão de Arquivos e Pastas 🗑️
+# Auto Exclude - PY 🗑️
 Este é um script que busca por arquivos e pastas em um determinado diretório e, caso o tempo de criação do arquivo seja maior que um determinado número de dias especificado em um arquivo de configuração, o arquivo é excluído. O script também exclui pastas especificadas em um arquivo de configuração.
 <br>
 # Requisitos 📋
@@ -35,7 +35,7 @@ Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para ma
 # EN
 <br>
 <br>
-# File and Directory Deletion 🗑️
+# Auto Exclude - PY 🗑️
 This is a script that searches for files and directories in a specified directory and, if the file creation time is greater than a specified number of days specified in a configuration file, the file is deleted. The script also deletes directories specified in a configuration file.
 <br>
 # Requirements 📋
